@@ -1,7 +1,20 @@
 # TP3DPBO2024C1
+
+## Janji
+  Saya Boy Aditya Rohmaulana NIM 2203488 mengerjakan
+  soal Tugas Praktikum 3 dalam mata kuliah DPBO untuk keberkahanNya
+  maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin. 
+
 ## Desain Program
 
-Program ini dirancang dengan menggunakan PHP untuk membuat GUI.  Kelas-kelas dalam proyek ini adalah sebagai berikut:
+Program ini adalah aplikasi berbasis web yang dibuat dengan PHP. Program ini berfungsi untuk melakukan CRUD data film dan serial TV.
+
+### Model Database
+![desain_db](https://github.com/boyaditya/TP3DPBO2024C1/assets/135103722/0f2c3c29-e32e-42ec-ac4f-ef34f83f035f)
+
+### Kelas
+
+Kelas-kelas dalam proyek ini adalah sebagai berikut:
 
 1. `DB`: Kelas ini bertindak sebagai kelas dasar untuk interaksi dengan database. Metode dalam kelas ini termasuk `open()`, `close()`, `execute()`, dan `executeAffected()`. Metode ini digunakan untuk membuka dan menutup koneksi database, menjalankan query, dan mendapatkan hasil.
 
