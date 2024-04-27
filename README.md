@@ -5,13 +5,16 @@ Program ini dirancang dengan menggunakan PHP untuk membuat GUI.  Kelas-kelas dal
 
 1. `DB`: Kelas ini bertindak sebagai kelas dasar untuk interaksi dengan database. Metode dalam kelas ini termasuk `open()`, `close()`, `execute()`, dan `executeAffected()`. Metode ini digunakan untuk membuka dan menutup koneksi database, menjalankan query, dan mendapatkan hasil.
 
-2. `Movies`: Kelas ini mewarisi dari kelas `DB` dan digunakan untuk mengelola film dalam aplikasi. Metode dalam kelas ini termasuk `getMovies()`, `sortMovies()`, dan `searchMovies()`. Metode ini digunakan untuk mendapatkan daftar film, mengurutkan film, dan mencari film.
+2. `Movies`: Kelas ini mewarisi dari kelas `DB` dan digunakan untuk mengelola film (movies) dalam aplikasi. Metode dalam kelas ini termasuk `getMovies()`, `sortMovies()`, dan `searchMovies()`. Metode ini digunakan untuk mendapatkan daftar film, mengurutkan film, dan mencari film.
 
-3. `Series`: Kelas ini mewarisi dari kelas `DB` dan digunakan untuk mengelola serial TV dalam aplikasi. Metode dalam kelas ini termasuk `getSeries()`, `sortSeries()`, dan `searchSeries()`. Metode ini digunakan untuk mendapatkan daftar serial TV, mengurutkan serial TV, dan mencari serial TV.
+3. `Series`: Kelas ini mewarisi dari kelas `DB` dan digunakan untuk mengelola serial TV (series) dalam aplikasi. Metode dalam kelas ini termasuk `getSeries()`, `sortSeries()`, dan `searchSeries()`. Metode ini digunakan untuk mendapatkan daftar serial TV, mengurutkan serial TV, dan mencari serial TV.
 
 4. `Template`: Kelas ini digunakan untuk mengelola template HTML dalam aplikasi. Metode dalam kelas ini termasuk `replace()` dan `write()`. Metode ini digunakan untuk mengganti placeholder dalam template dengan data dan menulis output ke browser.
 
 5. `Country`: Kelas ini mewarisi dari kelas `DB` dan digunakan untuk mengelola negara dalam aplikasi. Metode dalam kelas ini termasuk `getCountry()`, `getCountryById()`, `addCountry()`, `updateCountry()`, dan `deleteCountry()`. Metode ini digunakan untuk mendapatkan daftar negara, mendapatkan negara berdasarkan id, menambahkan negara, memperbarui negara, dan menghapus negara.
+
+6. `Genre`: Kelas ini mewarisi dari kelas `DB` dan digunakan untuk mengelola genre dalam aplikasi. Metode dalam kelas ini termasuk `getGenre()`, `getGenreById()`, `addGenre()`, `updateGenre()`, dan `deleteGenre()`. Metode ini digunakan untuk mendapatkan daftar genre, mendapatkan genre berdasarkan id, menambahkan genre, memperbarui genre, dan menghapus genre.
+
 
 ## Alur Program
 Pengguna memungkinkan untuk:
@@ -27,6 +30,10 @@ Pengguna memungkinkan untuk:
 Semua halaman ini menggunakan template HTML yang didefinisikan dalam kelas `Template`, dan semua interaksi dengan database dikelola oleh kelas `DB`, `Movies`, `Series`, dan `Country`.
 
 ## Dokumentasi
+
+
+https://github.com/boyaditya/TP3DPBO2024C1/assets/135103722/aaf49f46-3c4c-4859-a302-c56e39046e54
+
 
 
 ### Halaman Utama
